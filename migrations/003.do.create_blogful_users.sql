@@ -4,7 +4,7 @@ CREATE TABLE blogful_users (
   full_name TEXT NOT NULL,
   password TEXT NOT NULL,
   nickname TEXT,
-  date_created TIMESTAMP DEFAULT now() NOT NULL,
+  date_created TIMESTAMP WITH TIME ZONE DEFAULT now() NOT NULL,
   date_modified TIMESTAMP
 );
 
