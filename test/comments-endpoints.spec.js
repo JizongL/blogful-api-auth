@@ -81,7 +81,7 @@ describe('Comments Endpoints', function() {
         )
     })
 
-    const requiredFields = ['text', 'user_id', 'article_id']
+    const requiredFields = ['text', 'article_id']
 
     requiredFields.forEach(field => {
       const testArticle = testArticles[0]
